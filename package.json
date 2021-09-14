@@ -55,6 +55,7 @@
     "tsconfig-paths": "^3.10.1",
     "typeorm": "^0.2.37",
     "typescript": "^4.3.5",
+    "url-join-ts": "^1.0.5",
     "winston": "^3.3.3"
   },
   "jest": {
