@@ -1,0 +1,13 @@
+node_modules
+
+.env
+
+.git
+
+.github
+
+README.md
+*.md
+
+*.yml
+*.yaml
