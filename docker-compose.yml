@@ -1,0 +1,13 @@
+# This docker-compose.yml might be temporary. Should be improved in future imo.
+version: '3.8'
+services:
+  nestjs-12-factor-app:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: nestjs_12fa_ctr
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      PORT: ${PORT}
+    ports:
+      - ${PORT}:${PORT}
