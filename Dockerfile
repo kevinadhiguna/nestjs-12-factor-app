@@ -4,7 +4,7 @@ ARG GITLAB_ACCESS_TOKEN
 
 WORKDIR /app
 
-COPY package.json yarn.lock /app
+COPY package.json yarn.lock /app/
 COPY .npmrc /app/.npmrc
 
 RUN yarn install && \
