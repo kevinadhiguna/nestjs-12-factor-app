@@ -1,13 +1,51 @@
+### Node ###
 node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
 
+# dotenv environment variables file
 .env
+.env.test
+.env.production
 
+# cache
+.cache
+
+# build / generate output
+build/
+dist/
+
+# Git
 .git
 
+# Workflows, YML/YAML
 .github
-
-README.md
-*.md
-
 *.yml
 *.yaml
+
+# Markdown
+*.md
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+### macOS ###
+# General
+.DS_Store
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
